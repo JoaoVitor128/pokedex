@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedéx</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/imgs/favicon.webp">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/src/css/style.css">
+
+</head>
+
+<body>
+
+    <main>
+        <h1 class="pokemon-data">
+            <span class="pokemon-number"></span>
+            <span class="pokemon-name"></span>
+        </h1>
+        <img src="Imagem não descoberta"class="pokemon-image">
+
+        <form class="form">
+            <input type="search" id="search"
+            class="input-search"
+            placeholder="Nome ou número"
+            required
+            >
+        </form>
+
+        <div class="buttons">
+            <button class="button btn-prev">Prev &lt;</button>
+            <button class="button btn-next">Next &gt;</button>
+        </div>
+
+        <img src="./src/imgs/pokedex.png" alt="pokedex" class="pokedex">
+    </main>
+
+    <script defer src="./src/js/script.js"></script>
+</body>
+
+</html>
